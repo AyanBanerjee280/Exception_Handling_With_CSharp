@@ -8,7 +8,7 @@ namespace Exception_Handling
             try
             {
                 int a = 78;
-                int b = 0;
+                int b = 5;
                 int result = a / b;
                 Console.WriteLine(result);
 
@@ -17,7 +17,7 @@ namespace Exception_Handling
                 arr[1] = 2;
                 arr[2] = 3;
                 arr[3] = 4;
-
+                //Only this IndexOutOfRangeException will be executed in this programme
                 string s = null;
                 Console.WriteLine(s.Length);
             }
